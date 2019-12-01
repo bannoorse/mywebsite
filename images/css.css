@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+body {
+    background: #FFF url(bg.gif) repeat-x;
+    color: #444;
+    font: normal 62.5% "Lucida Sans Unicode", Verdana, sans-serif;
+    padding-top: 40px;
+}
+p, code, ul {
+    font-size: 1.2em;
+    padding-bottom: 1.2em;
+}
+li {
+    list-style: none;
+}
+h1 {
+    font-size: 1.4em;
+}
+h1, h2, h3, h4 {
+    font: normal 1.2em "Trebuchet MS", sans-serif;
+    color: #F06;
+}
+p {
+    text-indent: 2em;
+    line-height: 1.8em;
+}
+/* misc */
+.clearer {
+    clear: both;
+}
+/*
+-----------------------------------*/
+#container {
+    position: relative;
+    float: left;
+}
+/* header */
+#pageHeader {
+    background: url(stripes.gif) no-repeat;
+    border-bottom: 1px solid #eee;
+    height: 160px;
+    margin-bottom: 24px;
+    width: 55%;
+    position: absolute;
+    left: 3%;
+    top: 0;
+}
+#pageHeader h1 {
+    color: #222;
+    font: normal 4em sans-serif;
+    text-align: center;
+    line-height: 120px;
+}
+#pageHeader h2 {
+    border-top: 1px solid #eee;
+    color: #666;
+    text-align: right;
+    position: absolute;
+    width: 90%;
+    top: 0;
+    right: 0;
+}
+#pageHeader h2 span {
+    background: #222;
+    color: #EEE;
+    padding: 0 6px;
+}
+/* left side (main content) */
+#supportingText {
+    margin: 180px 42% 20px 3%;
+}
+#supportingText h3 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+#supportingText a, .footer a {
+    color: #F06;
+    text-decoration: none;
+}
+#supportingText a:hover, .footer a:hover {
+    color: #444;
+    border-bottom: 1px solid #F06;
+}
+/* nav & subnavigation */
+#preamble, #linkList {
+    margin-bottom: 20px;
+    position: absolute;
+    top: 0;
+}
+#quickSummary {
+    display: none;
+}
+#preamble {
+    right: 23%;
+    width: 17%;
+}
+#preamble h3 span {
+    display: none;
+}
+#preamble h3 {
+    background: url(logo.gif) no-repeat center top;
+    border-bottom: 1px solid #EEE;
+    border-top: 1px solid #EEE;
+    height: 160px;
+    margin-bottom: 2em;
+}
+#intro h1 {
+    color: #F60;
+    margin: 12px 0;
+}
+#intro a {
+    color: #888;
+    display: block;
+    font: normal 1.4em serif;
+    padding: 8px 0;
+}
+#intro a:hover {
+    background: #FAFAFA;
+    color: #F06;
+}
+/* subnav */
+#linkList {
+    background: #222 url(round_lt.gif) no-repeat left top;
+    right: 3%;
+    width: 18%;
+}
+#linkList2 {
+    background: url(round_rt.gif) no-repeat right top;
+}
+#lresources {
+    background: url(round_lb.gif) no-repeat left bottom;
+}
+#linkList2 h3 {
+    color: #F06;
+    font-size: 1.4em;
+    height: 20px;
+    margin-left: 8px;
+}
+#lresources h3 {
+    padding: 0 12px;
+}
+#linkList2 li {
+    list-style: none;
+    margin: 0;
+    border-bottom: 1px solid #333;
+}
+#linkList2 li a {
+    color: #777;
+    font-size: 0.9em;
+    padding: 3px 6px 3px 8px;
+    text-decoration: none;
+}
+#linkList2 li a:hover {
+    color: #DDD;
+}
+#lselect, #larchives {
+    padding: 12px 12px 0;
+}
+#lresources ul {
+    background: url(round_rb.gif) no-repeat right bottom;
+    margin: 0;
+    padding: 12px 12px 24px;
+}
